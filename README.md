@@ -13,7 +13,9 @@ git clone https://github.com/gabrielassisdepaula/fake-news-detector.git
 or download it through the Github GUI
 
 ## How to use it
-To begin with, a few packages are required to run the script.
+First of all you need to have Python installed in your computer, if you dont't have you can download it [here](https://www.python.org/downloads/)
+
+Now, with Python installed, a few packages are required to run the script.
 You can install them through the command:
 
 ```
