@@ -17,13 +17,13 @@ To begin with, a few packages are required to run the script.
 You can install them through the command:
 
 ```
-pip install beautifulsoup4 urllib3 numpy pandas scikit-learn
+pip install argparse beautifulsoup4 urllib3 numpy pandas scikit-learn
 ```
 
 or through this command in your preferred conda virtual environment:
 
 ```
-> conda install beautifulsoup4 urllib3 numpy pandas scikit-learn
+> conda install argparse beautifulsoup4 urllib3 numpy pandas scikit-learn
 ```
 
 Now that you have the requirements, open the main.py file and in line 25, insert the path to where the "news.csv" file is in your computer.
@@ -45,11 +45,11 @@ Wait a little bit and you will receive telling you if the news is real or fake!
 * [Urllib](https://docs.python.org/3/library/urllib.html)
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+## Notes
+The script still under development to be more embracing, for now it will only work with BBC news.
+
 ## Authors
 * **Gabriel Assis** - Estudante de Informática - [gabrielassisdepaula](https://github.com/gabrielassisdepaula)
 
 ## License
 This project is licensed under the MIT License - read the [LICENSE](LICENSE) for more details.
-
-### Notes
-The script still under development to be more embracing, for now it will only work with BBC news.
